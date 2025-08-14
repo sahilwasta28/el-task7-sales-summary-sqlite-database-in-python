@@ -8,7 +8,11 @@ The goal was to simulate a real-world product sales environment, calculate reven
 
 ⚙️ **Tools and Dataset**  
 **Tools:** SQLite (via Python `sqlite3`), DB Browser for SQLite, Matplotlib (for visualizations)  
-**Dataset:** `sales_data.db` (Sales table with columns: `id`, `product`, `quantity`, `price`)
+**Dataset:** `sales_data.db` (Sales table with columns: `id`, `product`, `quantity`, `price`)                                                                                                                        
+**Files:**
+
+`sales_task.py` - Contains the creation and insertion of records in the database   
+`sales_analysis.py` - Contains the actual queries and the plot area logic
 
 ---
 
